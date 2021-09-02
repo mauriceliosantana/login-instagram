@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    width: 350px;
+    height: 400px;
+    margin-top: 40px;
+    padding: 10px 40px;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 175px;
+    height: 100px;
+}
+
+input {
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: #fafafa;
+    font-size: 12px;
+}
+
+button {
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgba(0, 149, 246, 0.3);
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.alinhamento {
+    width: 100%;
+    height: 30px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.linha {
+    width: 100%;
+    height: 1.5px;
+    background-color: #dbdbdb;
+    position: absolute;
+    top: 50%;
+}
+
+.alinhamento p {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 9px;
+    padding: 0 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: #8e8e8e;
+}
+
+form a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.fb-enter {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #315885;
+    font-weight: 500;
+}
+
+.fb-enter i {
+    font-size: 1.2rem;
+    padding-right: 4px;
+}
+
+.senha {
+    font-size: 12px;
+    color: gray;
+}
+
+.cadastro {
+    width: 350px;
+    height: 80px;
+    margin: 10px 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.cadastro a {
+    color: #0095f6;
+    text-decoration: none;
+    padding-left: 4px;
+    font-weight: bold;
+}
+
+.apps {
+    width: 350px;
+    height: 80px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.apps p {
+    margin-bottom: 10px;
+}
+
+.apps img {
+    width: 136px;
+    height: 40px;
+}
